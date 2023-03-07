@@ -1,0 +1,30 @@
+{
+  "name": "soutenance-git",
+  "version": "1.0.0",
+  "description": "Titre du Projet : Soutenance Git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint js/index.js",
+    "lint:fix": "eslint --fix js/index.js",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melvin-crypto/Soutenance-git.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/melvin-crypto/Soutenance-git/issues"
+  },
+  "homepage": "https://github.com/melvin-crypto/Soutenance-git#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.35.0",
+    "husky": "^8.0.0"
+  }
+}
