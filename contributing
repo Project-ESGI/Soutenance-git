@@ -1,0 +1,22 @@
+Introduction
+Nous sommes ravis que vous souhaitiez contribuer à notre projet Git ! Ce guide vous explique comment vous pouvez nous aider à améliorer notre projet et quelles sont les attentes en matière de contribution. En contribuant à ce projet, vous acceptez les termes de notre code de conduite.
+
+Comment contribuer
+Vérifiez les issues existants pour voir s'il y a des problèmes ou des fonctionnalités que vous pourriez aider à résoudre ou à développer.
+Créez un fork du projet.
+Créez une branche pour votre contribution en utilisant un nom descriptif.
+Effectuez vos modifications ou ajoutez vos fonctionnalités.
+Testez vos modifications pour vous assurer qu'elles fonctionnent correctement et qu'elles ne causent pas de régression dans le code existant.
+Soumettez une pull request avec une description détaillée de votre contribution et expliquez pourquoi elle est importante.
+Attendez que votre contribution soit examinée et merge dans le projet.
+Bonnes pratiques
+Assurez-vous que votre contribution est conforme aux normes de codage et de style de notre projet.
+Documentez correctement votre code pour que les autres puissent facilement le comprendre et le maintenir.
+Évitez de soumettre des contributions qui contiennent des bogues ou qui cassent le code existant.
+Évitez de modifier le code ou la logique qui n'est pas liée à votre contribution.
+Évitez d'ajouter des dépendances inutiles à notre projet.
+Comment signaler un bogue ou une vulnérabilité
+Si vous rencontrez un bogue ou une vulnérabilité dans notre projet, veuillez le signaler en créant un issue dans le référentiel du projet avec une description détaillée du problème et des étapes pour le reproduire.
+
+Conclusion
+Nous sommes heureux que vous envisagiez de contribuer à notre projet Git. Nous apprécions toutes les contributions et nous vous encourageons à continuer à aider notre projet à s'améliorer. Si vous avez des questions ou des préoccupations, n'hésitez pas à nous contacter.
