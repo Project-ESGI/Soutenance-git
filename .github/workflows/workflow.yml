@@ -18,7 +18,7 @@ jobs:
       if: success()
       uses: actions/github-script@v3
       with:
-        github-token: ${{ secrets.TOKEN3 }}
+        github-token: ${{ secrets.TOKEN4 }}
         script: |
           github.issues.createComment({
             issue_number: context.issue.number,
