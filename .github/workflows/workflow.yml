@@ -1,41 +1,28 @@
-# name: workflow
-
-# on:
-#   push:
-#     branches: [ main ]
-
-# jobs:
-#   test:
-#     runs-on: ubuntu-latest
-
-#     steps:
-#     - uses: actions/checkout@v2
-#     - name: Install dependencies
-#       run: npm install
-#     - name: Run tests
-#       run: npm test
-#     - name: Success message
-#       if: success()
-#       uses: actions/github-script@v3
-#       with:
-#         github-token: ${{ secrets.TOKEN5 }}
-#         script: |
-#           github.issues.createComment({
-#             issue_number: context.issue.number,
-#             owner: context.repo.owner,
-#             repo: context.repo.repo,
-#             body: 'CI succeeded!'
-#           })
 name: workflow
-run-name: ${{ github.actor }} is learning GitHub Actions
-on: [push]
+
+on:
+  push:
+    branches: [ main ]
+
 jobs:
-  check-bats-version:
+  test:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: '14'
-      - run: npm install -g bats
-      - run: bats -v
+    - uses: actions/checkout@v2
+    - name: Install dependencies
+      run: npm install
+    - name: Run tests
+      run: npm test
+    - name: Success message
+      if: success()
+      uses: actions/github-script@v3
+      with:
+        github-token: ${{ secrets.Token }}
+        script: |
+          github.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: 'CI succeeded!'
+          })
