@@ -1,22 +1,32 @@
-Introduction
-Nous sommes ravis que vous souhaitiez contribuer à notre projet Git ! Ce guide vous explique comment vous pouvez nous aider à améliorer notre projet et quelles sont les attentes en matière de contribution. En contribuant à ce projet, vous acceptez les termes de notre code de conduite.
+Guide de contribution
+Nous sommes ravis que vous souhaitiez contribuer à notre projet ! Voici quelques étapes à suivre pour vous aider à démarrer.
 
-Comment contribuer
-Vérifiez les issues existants pour voir s'il y a des problèmes ou des fonctionnalités que vous pourriez aider à résoudre ou à développer.
-Créez un fork du projet.
-Créez une branche pour votre contribution en utilisant un nom descriptif.
-Effectuez vos modifications ou ajoutez vos fonctionnalités.
-Testez vos modifications pour vous assurer qu'elles fonctionnent correctement et qu'elles ne causent pas de régression dans le code existant.
-Soumettez une pull request avec une description détaillée de votre contribution et expliquez pourquoi elle est importante.
-Attendez que votre contribution soit examinée et merge dans le projet.
-Bonnes pratiques
-Assurez-vous que votre contribution est conforme aux normes de codage et de style de notre projet.
-Documentez correctement votre code pour que les autres puissent facilement le comprendre et le maintenir.
-Évitez de soumettre des contributions qui contiennent des bogues ou qui cassent le code existant.
-Évitez de modifier le code ou la logique qui n'est pas liée à votre contribution.
-Évitez d'ajouter des dépendances inutiles à notre projet.
-Comment signaler un bogue ou une vulnérabilité
-Si vous rencontrez un bogue ou une vulnérabilité dans notre projet, veuillez le signaler en créant un issue dans le référentiel du projet avec une description détaillée du problème et des étapes pour le reproduire.
+Étape 1 : Forker le projet
+La première étape pour contribuer à notre projet est de forker le repo. Pour ce faire, cliquez simplement sur le bouton "Fork" situé en haut à droite de la page du repo.
 
-Conclusion
-Nous sommes heureux que vous envisagiez de contribuer à notre projet Git. Nous apprécions toutes les contributions et nous vous encourageons à continuer à aider notre projet à s'améliorer. Si vous avez des questions ou des préoccupations, n'hésitez pas à nous contacter.
+Étape 2 : Cloner le repo forké
+Une fois que vous avez forké le repo, vous devez le cloner sur votre machine locale. Vous pouvez utiliser la commande suivante pour cloner le repo :
+
+git clone https://github.com/melvin-crypto/Soutenance-git.git
+
+Étape 3 : Créer une branche
+Avant de commencer à travailler sur une nouvelle fonctionnalité, il est recommandé de créer une nouvelle branche. Vous pouvez utiliser la commande suivante pour créer une nouvelle branche :
+
+git checkout -b nom-de-ma-branche
+
+N'oubliez pas de remplacer nom-de-ma-branche par un nom approprié pour votre branche.
+
+Étape 4 : Faire les modifications
+C'est le moment de faire les modifications que vous souhaitez apporter au projet. Nous vous recommandons de suivre les conventions de codage existantes et de créer des commits atomiques pour chaque modification. Assurez-vous également de tester vos modifications localement avant de les soumettre.
+
+Étape 5 : Pusher les modifications
+Une fois que vous avez terminé de faire des modifications et que vous êtes satisfait de celles-ci, vous pouvez les pousser vers votre repo forké. Utilisez la commande suivante pour pousser vos modifications :
+
+git push origin nom-de-ma-branche
+
+N'oubliez pas de remplacer nom-de-ma-branche par le nom de la branche que vous avez créée précédemment.
+
+Étape 6 : Soumettre une Pull Request
+La dernière étape consiste à soumettre une Pull Request. Pour ce faire, rendez-vous sur la page du repo forké et cliquez sur le bouton "Compare & pull request". Remplissez les informations requises et soumettez votre Pull Request.
+
+Nous examinerons votre Pull Request dès que possible et vous fournirons des commentaires si nécessaire. Merci d'avoir contribué à notre projet !
